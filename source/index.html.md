@@ -87,7 +87,7 @@ The Update Manager will update nexOS to the latest version.
 ## Security Manager
 
 <aside class="warning">
-The Security Manager is incomplete and is being workeed on.
+The Security Manager is incomplete and is being worked on.
 </aside>
 
 Protection of assets and manages the Security Module which allows for moderation commands.
