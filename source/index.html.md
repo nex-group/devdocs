@@ -22,7 +22,7 @@ code_clipboard: true
 The documentation for nexOS is not complete snd is constantly evolving and changing. Click "Contribute to the Documentation!" button on the sidebar to view the repository.
 </aside>
 
-> You will see the Javascript code references on this side.
+> You will see the Javascript code references on this side. Notes like this one will also be present.
 
 Wwlcome to nexOS Documentation! Here you can find resources regarding nexOS. 
 
@@ -31,6 +31,8 @@ Wwlcome to nexOS Documentation! Here you can find resources regarding nexOS.
 <aside class="warning">
 This section of the Documentation is not complete.
 </aside>
+
+> Currently, the nexOS project is closed-source. Information regarding the project will be added here later.
 
 
 # Modules 101
