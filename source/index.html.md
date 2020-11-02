@@ -22,6 +22,8 @@ code_clipboard: true
 The documentation for nexOS is not complete snd is constantly evolving and changing. Click "Contribute to the Documentation!" button on the sidebar to view the repository.
 </aside>
 
+> You will see the Javascript code references on this side.
+
 Wwlcome to nexOS Documentation! Here you can find resources regarding nexOS. 
 
 # Information
