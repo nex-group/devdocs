@@ -35,7 +35,7 @@ This section of the Documentation is not complete.
 > Currently, the nexOS project is closed-source. Information regarding the project will be added here later.
 
 
-# Modules 101
+# Modules 
 ## Initiators
 
 Initiators tell 'main.js,' to list your command in the index, otherwise known by its command "ne.help" or by its manager alias, Dependancy Manager.
@@ -79,16 +79,36 @@ Modules make it easier for you to code instead of relying on one single main.js 
 ## Dependancy Manager
 
 The Dependancy Manager is what manages Modules, Extentions, and Errors.
-If the bot has a significant error the Dependancy Manager will reboot nexOS up to one time, afterwards an administrator will need to reboot nexOS.
 
+## Update Manager
 
+The Update Manager will update nexOS to the latest version.
 
+## Security Manager
 
-Managers help nexOS stay afloat. You can learn more about the different types of Managers here!
+<aside class="warning">
+The Security Manager is incomplete and is being workeed on.
+</aside>
 
-`GET http://example.com/api/kittens`
+Protection of assets and manages the Security Module which allows for moderation commands.
 
+##
 
+Managers help nexOS stay afloat. You can learn more about the different types of Managers here! Optional Managers are called Extentions. Learn more about them in the next section.
 
-ID | The ID of the kitten to delete
+# Extentions
+
+## Extention-Core
+
+Manages all centeral extention systems.
+
+## Circuit Extention
+
+Flow control of usage.
+
+## HTTPS Extention
+
+Registers HTTPS in nexOS.
+
+Extentions are essentialy Managers however, extentions are optional.
 
