@@ -34,7 +34,7 @@ This section of the Documentation is not complete.
 # Modules 101
 ## Initiators
 
-Initiators tell 'main.js,' to list your command in the index, otherwise known by its command alias, 'ne.help.' 
+Initiators tell 'main.js,' to list your command in the index, otherwise known by its command "ne.help" or by its manager alias, Dependancy Manager.
 
 ```javascript
 module.exports = {
@@ -63,13 +63,24 @@ const url = 'https://www.reddit.com/r/animemes/hot/.json?limit=100'
 
 
 ```
-Your code!
+Your code here!
 ```
 > Executors are your own code. Your code matters!
 
 Modules are necessary for code to function, it is typically divided into three sections. Initiators, Executors, and Importers.
+Modules make it easier for you to code instead of relying on one single main.js file. 
 
-## HTTP Request
+
+# Managers
+## Dependancy Manager
+
+The Dependancy Manager is what manages Modules, Extentions, and Errors.
+If the bot has a significant error the Dependancy Manager will reboot nexOS up to one time, afterwards an administrator will need to reboot nexOS.
+
+
+
+
+Managers help nexOS stay afloat. You can learn more about the different types of Managers here!
 
 `GET http://example.com/api/kittens`
 
