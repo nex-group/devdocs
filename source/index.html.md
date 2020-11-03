@@ -114,8 +114,6 @@ Extentions are essentialy Managers however, extentions are optional.
 
 # License
 
-
-nexOS Foundation
 BSD 2-Clause License
 
 Copyright (c) 2020, Friendsy, 
@@ -142,7 +140,9 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Along with this license, nexOS is also under a Allium Public License.
+Currently nexOS is not open source, so this license does not apply yet.
+
+However, any unauthorized cloning of the repository must retain this License.
 
 # Legal 
 
