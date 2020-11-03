@@ -148,7 +148,7 @@ Along with this license, nexOS is also under a Allium Public License.
 
 Unifiton reserves a right to review all nexOS data for diagnostical purposes.
 
-You can view the full legal section on the [Unifiton Website.](https://unifiton.ddns.net`)
+You can view the full legal section on the [Unifiton Website.](https://unifiton.ddns.net)
 
 
 
