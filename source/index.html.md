@@ -52,6 +52,9 @@ module.exports = {
 	},
 };
 ```
+In an Initiator, you have optional stacks.
+
+
 
 > The above is an example of an initiator, and an executor. 
 
@@ -92,7 +95,25 @@ module.exports = {
 	},
 };
 ```
+# Stacks
+Stacks are added to a Initiator when necessary.
 
+> Guild Only Stack
+```javascript
+guildOnly: true,
+```
+> Args On Stack
+```javascript
+execute(message, args) {
+```
+> Command Aliases Stack
+```javascript
+aliases: ['icon', 'pfp'],
+```
+> Cooldown Stack
+```javascript
+cooldown: 5,
+```
 # Extend
 <aside class="warning">
 Extending Capabilities are not actively worked on, information here are not guaranteed to work. 
