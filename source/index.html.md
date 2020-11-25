@@ -101,14 +101,14 @@ Stacks are added to a Initiator when necessary.
 ## Guild Only Stack
 Makes module only function when used in a Guild.
 
-```java
+```javascript
 guildOnly: true,
 ```
 
 ## Args On Stack
 Enables or Disables Args.
 
-```java
+```javascript
 execute(message, args) {
 ```
 
