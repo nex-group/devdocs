@@ -99,18 +99,25 @@ module.exports = {
 Stacks are added to a Initiator when necessary.
 
 ## Guild Only Stack
+Makes module only function when used in a Guild.
 ```javascript
 guildOnly: true,
 ```
 ## Args On Stack
+Enables or Disables Args.
 ```javascript
 execute(message, args) {
 ```
 ## Command Aliases Stack
+Allows for multiple starter sequences after prefix. 
+<aside class="warning">
+This does not change the Prefix of nexOS and does not allow for clients to set a custom-prefix.
+</aside>
 ```javascript
 aliases: ['icon', 'pfp'],
 ```
 ## Cooldown Stack
+The amount of seconds the client has to wait until another response can be given.
 ```javascript
 cooldown: 5,
 ```
