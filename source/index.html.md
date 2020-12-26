@@ -1,5 +1,5 @@
 ---
-title: nexOS Documentation
+title: nexOS Developer References
 
 language_tabs: # must be one of https://git.io/vQNgJ
   - javascript
@@ -19,7 +19,7 @@ code_clipboard: true
 # Introduction
 
 <aside class="info">
-The documentation for nexOS is not complete snd is constantly evolving and changing. Click "Contribute to the Documentation!" button on the sidebar to view the repository.
+nexOS Developer References are not complete. This should not be relied on for up-to-date information.
 </aside>
 
 > You'll see references on this side.
@@ -28,11 +28,7 @@ Wwlcome to nexOS Documentation! Here you can find resources regarding nexOS.
 
 # Information
 
-<aside class="warning">
-This section of the Documentation is not complete.
-</aside>
-
-> Currently, the nexOS project is closed-source. Information regarding the project will be added here later. 
+nexOS is a bot that aims to be extendable.
 
 # Modules 
 
@@ -128,16 +124,16 @@ The amount of seconds the client has to wait until another response can be given
 ```javascript
 cooldown: 5,
 ```
+# Dependancies 
+nexOS provides multiple dependancies ready to use when making modules. This list outlines the dependancy, its expected usage, and how to use it.
 
+**List of Modules avaliable for use.**
 
-# Extend
-<aside class="warning">
-Extending Capabilities are not actively worked on, information here are not guaranteed to work. 
-</aside>
-It's easy to extend the capabilities already provided by the backend of nexOS.
-
-
-
+- discord.js (Core)
+- asynckit (Asynchronous Code)
+- mime-db (Media Type Database)
+- node-fetch (Rest-API, HTTP)
+- prism-media (Transcode Media with node.js)
 
 
 You can view the full legal section on the [Unifiton Website.](https://unifiton.ddns.net)
