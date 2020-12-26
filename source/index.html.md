@@ -135,7 +135,12 @@ nexOS provides multiple dependancies ready to use when making modules. This list
 - node-fetch (Rest-API, HTTP)
 - prism-media (Transcode Media with node.js)
 
+# nexOS/Packager
 
+nexOS Packager is a multipurpose, public module usage service.
+<aside class="warning">
+You should **never** put access tokens, or access id's, in the Packager service. **Doing so can compromise those tokens/id's, as anyone can publicly access the Packager DB Tables.
+</aside>
 You can view the full legal section on the [Unifiton Website.](https://unifiton.ddns.net)
 
 
